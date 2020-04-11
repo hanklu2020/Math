@@ -1,3 +1,16 @@
+pip install --upgrade pip
+
+python manage.py makemigrations <appname_thats_missing_tables>
+python manage.py migrate <appname_thats_missing_tables>
+
+
+
+
+
+
+
+
+
 # Developing Django on Repl.it
 
 - Fork this template to get started
